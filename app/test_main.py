@@ -9,15 +9,21 @@ from app.main import get_human_age
         (-1, -1, [0, 0]),
         (0, 0, [0, 0]),
         (14, 14, [0, 0]),
+        (15, 15, [1, 1]),
+        (24, 12, [2, 0]),
         (23, 23, [1, 1]),
         (28, 28, [3, 2]),
+        (44, 58, [7, 8]),
         (100, 100, [21, 17])
     ], ids=[
         "should return zeros when negative ages",
         "should return zeros when ages is zero",
         "should return zeros when ages less than 15",
+        "should return ones when ages exactly 15",
+        "should return two and zero when different ages in this scenario",
         "should return ones when ages greater-equal than 15 and less than 24",
         "should return proper year in different species rules",
+        "should return proper year when different ages",
         "should return proper human age when cat and dogs ages is very high"
     ]
 )
