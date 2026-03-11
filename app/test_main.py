@@ -25,7 +25,7 @@ from app.main import get_human_age
         "should return two and zero when different ages in this scenario",
         "should return ones when ages greater-equal than 15 and less than 24",
         "should return two in equal ages when below 28",
-        "should return two in equal ages when less than 28 right before threshold",
+        "should return two in equal ages when right before 28",
         "should return proper year in different species rules",
         "should return proper year when different ages",
         "should return proper human age when cat and dogs ages is very high"
